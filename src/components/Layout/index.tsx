@@ -4,10 +4,9 @@ import HeaderPage from 'components/Header'
 type DataPage = {
   children: React.ReactNode
   titulo: string
-  metatags?: {}
 }
 
-const index = ({ children, titulo, metatags }: DataPage) => {
+const index = ({ children, titulo }: DataPage) => {
   return (
     <div>
       <Head>
