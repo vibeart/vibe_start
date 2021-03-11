@@ -5,7 +5,7 @@ const index = () => {
     <>
       <S.Header>
         <h1>teste</h1>
-        <a className="button">Anchor</a>
+        <button className="button is-primary">Primary</button>
       </S.Header>
     </>
   )
