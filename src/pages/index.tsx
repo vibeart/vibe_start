@@ -1,5 +1,9 @@
-import Main from 'components/Main'
+import Layout from 'components/Layout'
 
-export default function Home() {
-  return <Main />
-}
+const Index = () => (
+  <Layout titulo="Debate Geral - Notícias em debate">
+    <h1>index home page</h1>
+  </Layout>
+)
+
+export default Index
